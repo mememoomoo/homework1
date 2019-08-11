@@ -4,6 +4,7 @@
     clear: both;
 }
 body {
+    background-image: url("../images/papyrus.png");
     background-color: #eeeeee;
     width: 100%;
     margin: 0 auto;
