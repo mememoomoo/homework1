@@ -171,3 +171,44 @@ input[type=text]:focus {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     transition-duration: 0.5s;
 }
+
+.portfolio-object-one {
+    position: relative;
+    width: 33%;
+    float: left;
+}
+
+.portfolio-object-one:hover .text-overlay {
+    width: 100%;
+    left: 0;
+}
+
+.portfolio-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.text-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: #4DB6AC;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: 0.5s ease;
+}
+
+.overlay-content {
+    white-space: nowrap;
+    color: #424242;
+    font-size: 18px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
