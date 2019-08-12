@@ -16,6 +16,7 @@ body {
     border: 2px solid #9e9e9e;
     width: 910px;
     margin: auto;
+    margin-bottom: 25px;
     padding: 25px;
     float: center;
     z-index: 1;
@@ -172,13 +173,14 @@ input[type=text]:focus {
     transition-duration: 0.5s;
 }
 
-.portfolio-object-one {
+.portfolio-object {
     position: relative;
-    width: 33%;
-    float: left;
+    width: 100%;
+    float: center;
+    margin-bottom: 25px;
 }
 
-.portfolio-object-one:hover .text-overlay {
+.portfolio-object:hover .text-overlay {
     width: 100%;
     left: 0;
 }
@@ -203,12 +205,12 @@ input[type=text]:focus {
 
 .overlay-content {
     white-space: nowrap;
-    color: #424242;
-    font-size: 18px;
+    color: #ffffff;
+    font-size: 24px;
     position: absolute;
     overflow: hidden;
     top: 50%;
-    left 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 }
